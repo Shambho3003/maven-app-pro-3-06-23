@@ -1,15 +1,6 @@
 pipeline {
     agent any
 
-    stages {
-        stage('Checkout') {
-            steps {
-                // Checkout source code from version control system
-                // Replace the URL with your own repository
-               // checkout scm
-            }
-        }
-
         stage('Build') {
             steps {
                 // Perform the build step
